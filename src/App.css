@@ -1,0 +1,114 @@
+
+
+body{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 30px;
+  background-color: lightyellow;
+
+
+
+}
+
+.balance-container{
+  
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+margin: 10px;
+
+height: 30px;
+
+
+
+}
+
+.balance{
+
+
+  padding: 20px;
+ 
+
+  
+}
+
+.income-expense{
+
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+}
+
+.income-expense > div:nth-of-type(1){
+
+
+  border-right: 1px solid lightgrey;
+  padding: 20px;
+}
+
+
+
+
+.list > ul{
+
+  list-style: none;
+  font-size: 35px;
+}
+
+.list > ul > li{
+
+  background-color: cadetblue;
+  padding: 10px;
+  border: 2px solid white;
+  position: relative;
+  font-weight: bolder;
+}
+
+.list span{
+
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  display: inline-block;
+  
+}
+
+.form-control{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: rgb(225, 225, 144);
+
+}
+
+.form-control  div,input,label,p,button{
+
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-size: 24px;
+}
+
+button{
+
+  background-color: rgb(159, 95, 219)
+  ;
+  color: white;
+  border-radius: 10px;
+  
+}
